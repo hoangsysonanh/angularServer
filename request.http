@@ -1,0 +1,25 @@
+POST http://localhost:3001/category/add
+Content-Type: application/json
+
+
+{
+    "name": "Category 1"
+}
+###
+GET http://localhost:3001/category
+Content-Type: application/json
+
+### 
+DELETE http://localhost:3001/category/663a3c06aadb81e5b10f193e
+Content-Type: application/json
+
+###cl
+PUT http://localhost:3001/category/6663a0a4a53ff4e008e768d17
+Content-Type: application/json
+
+{
+    "name": "djt me may thic'h xao lon khong"
+}
+###
+GET http://localhost:3001/product
+Content-Type: application/json
